@@ -20,4 +20,6 @@ sh patchcryptoprovider.sh <xyz.apk> <class file to include the security provider
 Ex: sh patchcryptoprovider.sh 123.apk MainActivity
 
 # Demo
+Aegis OTP authenticator depends on the default Security Provider. By executing this script, this app is tampered with a fake security provider and hence OTP seed used in HMAC operation can be seen easily in the logcat
+
 ![Demo](demo.gif)
