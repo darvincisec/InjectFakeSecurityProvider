@@ -1,4 +1,4 @@
-# PatchSecurityProvider
+# InjectFakeSecurityProvider
 A simple script to patch smali file to include a Fake Security Provider at 1. This provider is created by patching the SpongyCastle library to print the key, key size, algorithm parameters, keystore password in logcat. With this you can retrieve application cryptographic assets provided applications depend on the default security provider.
 
 If applications just rely on default Security Provider like this
